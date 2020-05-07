@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc9faeba-ba6c-491f-9c26-1258ba03cc49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipies/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipies/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipies/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebook/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipies/templates/base.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\PycharmProjects\RecipeBook\templates" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
