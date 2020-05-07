@@ -1,6 +1,22 @@
-<h1>Recipies</h1>
-<ul>
-    {% for recipe in recipies %}
-        <li>{{ recipe.recipe_name }} ({{ recipe.type_of_meal }})</li>
-    {% endfor %}
-</ul>
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <h1>Recipies</h1>
+    <div class="row">
+        {% for recipe in recipies %}
+            <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ recipe.image_url }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{ recipe.recipe_name }}</h5>
+                    <p class="card-text">Type of meal: {{ recipe.type_of_meal }}</p>
+                    <p class="card-text">Time to prepare: {{ recipe.prepare_time }} minutes</p>
+                    <p class="card-text">Portion for: {{ recipe.portion }} people</p>
+                    <a href="{{ recipe.recipe_url }}" class="btn btn-primary">Get recipe</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% endblock %}
