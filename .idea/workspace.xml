@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc9faeba-ba6c-491f-9c26-1258ba03cc49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipebook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebook/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipebook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipebook/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipies/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipies/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipies/views.py" afterDir="false" />
     </list>
@@ -48,9 +50,9 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="181" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1588768575698">
+    <state x="181" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1588846812361">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588768575698" />
+    <state x="181" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588846812361" />
   </component>
 </project>
