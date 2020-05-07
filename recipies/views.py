@@ -1,9 +1,11 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import Recipe
 
 
 def index(request):
-    return HttpResponse('This is main page')
+    recipies = Recipe.objects.all()
+    return render(request, 'index.html', {'recipies': recipies})
 
 
 def new_recipe(request):

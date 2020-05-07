@@ -1,0 +1,6 @@
+<h1>Recipies</h1>
+<ul>
+    {% for recipe in recipies %}
+        <li>{{ recipe.recipe_name }} ({{ recipe.type_of_meal }})</li>
+    {% endfor %}
+</ul>
