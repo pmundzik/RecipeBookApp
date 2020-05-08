@@ -12,5 +12,7 @@ urlpatterns = [
     path('recipes/soup', views.all_soups),
     path('recipes/dessert', views.all_desserts),
 
+    path('favourites', views.favourites),
+
     path('new', views.new_recipe)
 ]

@@ -43,6 +43,9 @@ def all_desserts(request):
     return render(request, 'all_desserts.html', {'recipes': desserts})
 
 
+def favourites(request):
+    return render(request, 'favourites.html')
+
 
 def new_recipe(request):
     return HttpResponse('New Recipe')
