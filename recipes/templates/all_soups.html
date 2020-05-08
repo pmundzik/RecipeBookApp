@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Recipes</h1>
+<div class="row">
+    {% for recipe in recipes %}
+        {% if recipe.type_of_meal == 'soup' %}
+            {% include 'recipe_card.html' %}
+        {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}
