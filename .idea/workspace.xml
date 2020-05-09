@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dc9faeba-ba6c-491f-9c26-1258ba03cc49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_breakfasts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_desserts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_dinners.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_lunches.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_recipes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_salads.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/all_soups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recipes/templates/recipe_card.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/templates/recipe_card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes/templates/favourites.html" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/templates/favourites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/recipes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,10 +54,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="181" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1588928498820">
+    <state x="181" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1589016378016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="181" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588928498820" />
+    <state x="181" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589016378016" />
     <state x="657" y="118" width="736" height="804" key="find.popup" timestamp="1588876241066">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

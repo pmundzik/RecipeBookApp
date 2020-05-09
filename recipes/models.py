@@ -20,3 +20,6 @@ class Recipe(models.Model):
         choices=type_of_meal_choices,
         default='dinner',
     )
+
+    def __str__(self):
+        return self.recipe_name

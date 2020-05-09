@@ -65,7 +65,12 @@ def all_desserts(request):
 
 
 def favourites(request):
-    return render(request, 'favourites.html')
+    favourite_recipes_list = Recipe.objects.all()
+    context = {'favourite_recipes_list': favourite_recipes_list}
+    if favourite_recipes_list:
+        return render(request, 'favourites.html', context)
+    else:
+        return render(request, 'no_recipes.html')
 
 
 def new_recipe(request):
