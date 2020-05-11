@@ -1,0 +1,1 @@
+alert("This recipe was added to 'Favourites'");
