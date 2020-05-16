@@ -1,0 +1,15 @@
+h1 {
+    color: green;
+}
+
+.delete-from-favourite-btn {
+    display: none;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.top-meal-name {
+    margin-bottom: 20px;
+}
